@@ -1,0 +1,46 @@
+﻿.nav-item
+{
+    padding: 5px 60px;
+    font-size: large;
+    
+}
+a
+{
+    text-decoration: none;
+    color: #FFEBC1;    
+}
+a:hover
+{
+    color: #8E3200;
+}
+.container-fluid
+{
+    background-color: #A64B2A;
+    padding: 100px 100px;
+}
+body
+{
+    color: #D7A86E;
+}
+.nav-brand
+{
+    font-size: larger;
+}
+.navbar
+{
+    padding-bottom: 100px;
+}
+.flavorpage
+{
+    padding: 50px;
+    background-color: #FFEBC1;
+    color: #A64B2A  ;
+}
+.intro
+{
+    padding-bottom: 100px;
+}
+.Chocolateflavor:hover
+{
+    transform: rotate(3deg);
+}
