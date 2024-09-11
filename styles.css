@@ -1,0 +1,147 @@
+body {
+    background-color: #FFFBE9;
+    color: #AD8B73;
+
+
+    font-family: "Beiruti", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+
+
+}
+
+nav {
+    padding: 3vh;
+    background-color: #AD8B73;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    font-size: larger;
+    color: #FFFBE9;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 10rem;
+    padding: 0.5rem;
+    transition: 1s;
+}
+
+.nav-item:hover {
+    background-color: #E3CAA5;
+    color: #AD8B73;
+}
+
+
+.banner {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-image: url();
+    background-size: cover;
+    height: 100vh;
+}
+
+.product-pages {
+    padding: 1rem;
+    height: 40vh;
+    background-color: #E3CAA5;
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-example {
+    color: #FFFBE9;
+    text-align: center;
+    width: 20rem;
+    background-color: #CEAB93;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+.events {
+    height: 40vh;
+}
+
+.social-media {
+    height: 10vh;
+    background-color: #AD8B73;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sm-item {
+
+    text-align: center;
+    text-decoration: none;
+    color: #AD8B73;
+    padding: 1.5vh;
+    display: inline-block;
+    width: 10rem;
+    background-color: #E3CAA5;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.sm-item:hover {
+    transform: scale(105%);
+}
+
+/*CONTACT US*/
+.contact-form {
+    height: 100vh;
+    text-align: center;
+}
+
+
+/*PRODUCTS*/
+.product-list {
+    background-color: #CEAB93;
+    margin: 1rem;
+    min-height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    text-align: center;
+    margin: 1rem;
+    background-color: #AD8B73;
+    color: #FFFBE9;
+    height: 15rem;
+    width: 13rem;
+    transition: 1s;
+}
+
+.product-item:hover {
+    transform: translateY(-0.5rem);
+}
+
+.buy-item {
+    background-color: #00712D;
+    color: #FFFBE6;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 0.5rem 2rem;
+    transition: 0.5s;
+}
+
+.buy-item:hover {
+    background-color: #D5ED9F;
+    color: #00712D;
+}
+
+/*PRODUCT PAGE*/
+.product-page {
+    display: flex;
+    background-color: #CEAB93;
+    margin: 1rem;
+    height: 80vh;
+}
