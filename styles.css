@@ -39,16 +39,19 @@ nav {
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
-    background-image: url();
+    color: #FFFBE6;
+    background-image: url(Media/Banner.jpg);
     background-size: cover;
     height: 100vh;
 }
 
 .product-pages {
     padding: 1rem;
+    min-height: fit-content;
     height: 40vh;
     background-color: #E3CAA5;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -56,6 +59,7 @@ nav {
     color: #FFFBE9;
     text-align: center;
     width: 20rem;
+    height: 20rem;
     background-color: #CEAB93;
 }
 
@@ -65,7 +69,14 @@ table {
 }
 
 .events {
+    color: #FFFBE6;
     height: 40vh;
+    background-image: url(Media/Events.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-position-y: -50%;
+    background-size: cover;
 }
 
 .social-media {
@@ -92,6 +103,27 @@ table {
 .sm-item:hover {
     transform: scale(105%);
 }
+
+
+#Shoes {
+    background-image: url(Media/Shoebanner.jpg);
+    background-size: cover;
+    background-position: -1.5rem;
+}
+
+#Shal {
+    background-image: url(Media/Shalbanner.jpg);
+    background-size: cover;
+    background-position: -1.5rem;
+}
+
+#kerevat {
+    background-image: url(Media/Kerevatbanner.jpg);
+    background-size: cover;
+    background-position: -1.5rem;
+}
+
+#Choco {}
 
 /*CONTACT US*/
 .contact-form {
