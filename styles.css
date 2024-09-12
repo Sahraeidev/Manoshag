@@ -38,10 +38,13 @@ nav {
 .banner {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: row-reverse;
     color: #FFFBE6;
     background-image: url(Media/Banner.jpg);
-    background-size: cover;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: 50%;
     height: 100vh;
 }
 
