@@ -85,3 +85,26 @@ main section {
 main section:nth-last-of-type(2) {
     background-color: #413543;
 }
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav div:nth-last-of-type(2) {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .sm-item img {
+        height: 100%;
+        width: 2rem;
+    }
+
+    #logo {
+        margin-bottom: 2rem;
+        height: 5rem;
+        width: 5rem;
+    }
+}
