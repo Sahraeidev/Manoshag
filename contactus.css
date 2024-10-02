@@ -70,72 +70,18 @@ nav div {
     transform: translateY(2rem);
 }
 
-
-
-main {
-    font-size: 2.5rem;
-    height: 100vh;
-    align-content: center;
+.contact-form {
+    align-items: center;
     text-align: center;
 }
 
-
-.products {
+main section {
     height: 100vh;
     align-content: center;
     text-align: center;
     font-size: 1.5rem;
 }
 
-.products div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.example-product {
-    border-radius: 200px;
-    margin: 0.5rem;
-    background-color: #2D2727;
-    width: 200px;
-    height: 350px;
-    text-decoration: none;
-    transition: 1s;
-}
-
-.example-product:hover {
-    transform: translateY(-1rem);
-    box-shadow: #F0EB8D 5px 5px;
-}
-
-.example-product img {
-    border: #8F43EE 2px solid;
-    width: 100%;
-    height: 200px;
-    border-radius: 100%;
-
-}
-
-.events {
-    height: 100vh;
-    background-color: #2D2727;
-    color: #F0EB8D;
-    align-content: center;
-    text-align: center;
-}
-
-table {
-    width: 100%;
-    height: 100%;
-    text-align: center;
-}
-
-
-.aboutus {
-    display: flex;
-    background-color: aliceblue;
-    height: 100vh;
-    text-align: center;
-    align-content: center;
-    font-size: 1.5rem;
+main section:nth-last-of-type(2) {
+    background-color: #413543;
 }
