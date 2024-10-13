@@ -60,7 +60,7 @@ nav div {
 
 @media (max-width: 600px) {
     nav {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
 
