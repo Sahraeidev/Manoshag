@@ -55,6 +55,7 @@ nav div {
     width: 7rem;
     height: 7rem;
     transform: translateY(1rem);
+    border: solid #8F43EE 5px;
     border-radius: 100%;
 }
 

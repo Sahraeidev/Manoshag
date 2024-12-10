@@ -31,15 +31,25 @@ main {
 }
 
 .example-product {
-
+    
+    color: #8F43EE;
     margin: 0.5rem;
-    background-color: #2D2727;
-    width: 23%;
+    background-color: #413543;
+    border-radius: 100px;
+    width: 17%;
     height: 400px;
     text-decoration: none;
     transition: 1s;
+    margin-bottom: 5rem;
 }
-
+.example-product img{
+    transform: translateY(-2rem);
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background-color: #413543;
+    border: #F0EB8D 2px solid;
+}
 
 .events {
     height: 100vh;
@@ -48,13 +58,15 @@ main {
     align-content: center;
     text-align: center;
 }
-
 table {
     width: 100%;
-    height: 100%;
+    height: 90%;
     text-align: center;
 }
-
+td{
+    border: #F0EB8D 2px;
+    border-style: solid none none none;
+}
 
 .aboutus {
     display: flex;
@@ -64,7 +76,10 @@ table {
     align-content: center;
     font-size: 1.5rem;
 }
-
+#aboutuspic{
+    height: 100px;
+    width: 100px;
+}
 
 @media (max-width: 600px) {
 
